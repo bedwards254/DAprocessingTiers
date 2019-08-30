@@ -1,5 +1,5 @@
-# Tier 2
-Tier 2 processing is done by staff, students, and interns as deemed appropriate. 
+# Tier 2b
+Tier 2b processing is done by staff, students, and interns as deemed appropriate. 
 
 [instert steps here as ToC]
 
