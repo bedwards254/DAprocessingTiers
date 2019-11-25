@@ -7,7 +7,7 @@ Tier 2 processing is done by staff, students, and interns as deemed appropriate.
 •	[Pull down from Keep](#pull-down-from-keep)</br>
 •	[FTK Imager](#ftk-imager)</br>
 3. [Virus Scanning](#virus-scanning)
-4. [Switching from BitCurator to Windows](#switching-from-bitcuratorubuntu-to-windows)
+4. [Switching from BitCurator to Windows](#switching-from-bitcuratorubuntu-from-windows)
 5. [XML Files](#xml-files)
 6. [MD5 File Creation](#md5-file-creation)
 7. [Deduplication](#deduplication)</br>
