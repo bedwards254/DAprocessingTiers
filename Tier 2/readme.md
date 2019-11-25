@@ -76,13 +76,45 @@ i. See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated l
 
 
 ## Duplication Detection
+1. On the desktop, click the Forensics and Reporting folder
+2. Double click FSLint to launch it
+
 ### FSLint
+3. Once open, click the “+Add” button at the top left and navigate to the hard drive and Working Files folder. 
+4. Double click the first folder in Working Files
+5. Remove the “/” from the top box using the “X Remove” button under the “+Add” button
+6. Make sure the tab on the left is set to “Duplicates”
+7. Click the “Find” button on the bottom left of the screen to start finding duplicates within the one folder
+8. In the results screen, right click and choose "within groups," then “Delete all but newest” then click “Ok”
+9. Click “Find” again to make sure everything else got deleted
+10. On the left, choose the “Empty Directories” tab and click “Find”
+11. Delete all the empty directories which appear
+12. Do the same for the “Temp Files” tab
+13. Repeat this process for other folders in the collection, removing and adding each one every time
+14. Once done with the individual folders, add the Working Files folder as a whole and run the “Duplicates,” “Empty Directories,” and “Temp Files” options against everything at once
 
 
 ## TAR Files
-
+1. In [collectionName]_workingFiles, create a folder called [MSS]files
+2. Create TAR files for the Original Disk Images and the Working Files folders </br>
+•	Create TAR file containing both of these folders/files following [these instructions](https://bedwards254.github.io/testBDBC/jekyll/2019/01/29/TAR-files.html)
+3. Put this TAR file in the [MSS]files folder, along with a copy of the MD5 file created above
 
 ## Bagging Files
+*Switch to Ubuntu if not already in it, [using these instructions](https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/BC-Windows-Switch.html)*
+1. In BitCurator, mount the hard drive and navigate to the [collectionName]_workingFiles folder
+2. Right click inside the folder and select “Open in Terminal”
+3. In the terminal, type `bagger.py –md5 –sha1 –contact-name=[netID] ./[MSS]files`
+4. Let it run
+5. Once it is done running, in the terminal, type `bagger.py –validate ./[MSS]files`
+6. A message should appear saying it is valid </br>
+•	If not, contact the digital archivist</br>
 
 
 ## Uploading to Keep
+*Staff: Follow these instructions to upload the bagged file into the Keep: https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/Keep-Ingest.html*
+1. **Abstract:** *TAR file of files brought to Tier 2 processing, MD5 file, and original disk image*
+2. **Imaging Date:** put the date the bag was created
+3. **Hardware:** put the summation of the media, without count
+4. **Other Information:** put *Originally [number of media (six optical discs, 120 3.5” floppy disks, etc.); summation of collection.*
+
