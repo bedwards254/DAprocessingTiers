@@ -1,7 +1,20 @@
 # Tier 2
 Tier 2 processing is done by staff, students, and interns as deemed appropriate. 
 
-[instert steps here as ToC]
+# Table of Contents
+1. [Folder Structure Setup](#folder-structure-setup)
+2. [Extraction](#extraction)</br>
+•	[Pull down from Keep](#pull-down-from-keep)</br>
+•	[FTK Imager](#ftk-imager)</br>
+3. [Virus Scanning](#virus-scanning)
+4. [Switching from BitCurator to Windows]
+5. [XML Files](#xml-files)
+6. [MD5 File Creation](#md5-file-creation)
+7. [Deduplication](#deduplication)</br>
+•	[FS Lint](#fs-lint)</br>
+8. [TAR Files](#tar-files)
+9. [Bagging Files](#bagging-files)
+10. [Uploading to Keep](#uploading-to-keep)
 
 ## Folder Structure Setup
 1. Create a folder called [collectionName]_workingFiles
@@ -17,7 +30,6 @@ c. Working Files
 *Staff:* pull down images from Keep (just images, not any accompanying material) on Windows side </br>
 **Note:** these will pull down with their PID as the identifying title, so be sure to pay attention to which one you are on to click and drag it to the proper folder in Original Disk Images </br>
 **Note:** If a number is skipped in the Keep files, delete that folder from Original Disk Images and Extracted Files
-
 
 ### FTK Imager
 *Student/Staff:*
@@ -75,7 +87,7 @@ i. See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated l
 5. Open it to check the contents
 
 
-## Duplication Detection
+## Deduplication
 1. On the desktop, click the Forensics and Reporting folder
 2. Double click FSLint to launch it
 
