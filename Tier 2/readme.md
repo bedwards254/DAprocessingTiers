@@ -97,7 +97,7 @@ i. See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated l
 5. Remove the “/” from the top box using the “X Remove” button under the “+Add” button
 6. Make sure the tab on the left is set to “Duplicates”
 7. Click the “Find” button on the bottom left of the screen to start finding duplicates within the one folder
-8. In the results screen, right click and choose "within groups," then “Delete all but newest” then click “Ok”
+8. In the results screen, right click and choose "within groups," then “select all but newest” then click “Delete” in the bottom right corner.
 9. Click “Find” again to make sure everything else got deleted
 10. On the left, choose the “Empty Directories” tab and click “Find”
 11. Delete all the empty directories which appear
