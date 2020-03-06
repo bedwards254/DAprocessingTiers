@@ -1,5 +1,9 @@
-See [the updated Born Digital Bootcamp Instructions](https://bedwards254.github.io/testBDBC/jekyll/2019/01/30/welcome-BDBC.html) 
-for Tier 1 instructions. 
+Instructions for accessioning and imaging born digital materials (known as Tier 1). 
 
-See [advanced Bootcamp instructions](https://bedwards254.github.io/testBDBC/jekyll/2019/01/30/Advanced-Bootcamp.html) 
-for details on imaging optical discs, ZIP disks, SD cards, and hard drives. 
+See the [Imaging](https://github.com/bedwards254/DAprocessingTiers/tree/master/Tier%201/Imaging) folder for more information on how to image different types of media. 
+
+See the [switching file] for instructions on how to switch from Windows to BitCurator on the lab computers (and vice-versa)
+
+See the [Keep instructions] for instructions on how to upload bagged materials to the Keep and what metadata to enter. 
+
+See the [optical disc policy] for a guide on how to determine if and how to image optical discs. 
