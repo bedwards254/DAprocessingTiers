@@ -1,6 +1,6 @@
 ## Creating TAR Files
 
-These instructions explain how to create and extract a TAR file in cases where a complete disk image is not warranted. 
+These instructions explain how to create and extract a TAR file in cases where a complete disk image is not warranted. An example of this is an overly large hard drive or a CD-RW (read-write) optical disc. 
 
 ### Using the Windows machine in the lab:
 1. Connect the collection hard drive to the DA lab machine using a write blocker.
