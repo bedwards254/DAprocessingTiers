@@ -1,4 +1,4 @@
-# Tier 2
+# Tier 2 - Processing
 Tier 2 processing is done by staff, students, and interns as deemed appropriate. Tier 2 is the initial extraction of materials, along with a virus and deduplication scan. If only system files or degraded files are left after these steps, follow the Finding Aid Edits section below and mark the collection as Tier 2 in the shelf list. 
 
 # Table of Contents
