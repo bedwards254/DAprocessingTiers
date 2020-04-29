@@ -79,6 +79,7 @@ to the drive and host computer.
 left-hand side of the BitCurator window.
 
 **Image drive:**
+
 Creating a physical image:
 1. First, mount the drive. Right click on the icon which appears on the task bar on left of the screen and click 
 “Safe Mount” OR double-click the icon
