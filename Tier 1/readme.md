@@ -1,4 +1,4 @@
-Instructions for accessioning and imaging born digital materials (known as Tier 1). 
+# Tier 1 - Accessioning and Imaging
 
 See the [Imaging](https://github.com/bedwards254/DAprocessingTiers/tree/master/Tier%201/Imaging) folder for more information on how to image different types of media. 
 
