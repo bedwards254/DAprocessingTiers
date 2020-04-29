@@ -16,6 +16,7 @@ Tier 2 processing is done by staff, students, and interns as deemed appropriate.
 9. [Bagging Files](#bagging-files)
 10. [Uploading to Keep](#uploading-to-keep)
 11. Finding Aid Edits
+12. Uploading to Reading Room Server
 
 ---
 
@@ -163,5 +164,12 @@ i. See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated l
 3. **Hardware:** put the summation of the media, without count
 4. **Other Information:** put *Originally [number of media (six optical discs, 120 3.5” floppy disks, etc.); summation of collection.*
 
+[Back to top](#table-of-contents)
+
+---
+
 ## Finding Aid Edits
 WRITE THESE
+
+[Back to top](#table-of-contents)
+
