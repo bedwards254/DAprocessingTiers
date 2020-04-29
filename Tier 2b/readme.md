@@ -150,6 +150,13 @@ i. See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated l
 
 ---
 
+## Arranging Files
+WRITE THESE
+
+[Back to top](#table-of-contents)
+
+---
+
 ## TAR Files
 1. In [collectionName]_workingFiles, create a folder called [MSS]files
 2. Create TAR files for the Original Disk Images and the Working Files folders </br>
