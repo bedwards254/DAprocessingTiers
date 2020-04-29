@@ -1,5 +1,5 @@
 # Tier 2
-Tier 2 processing is done by staff, students, and interns as deemed appropriate. 
+Tier 2 processing is done by staff, students, and interns as deemed appropriate. Tier 2 is the initial extraction of materials, along with a virus and deduplication scan. If only system files or degraded files are left after these steps, follow the Finding Aid Edits section below and mark the collection as Tier 2 in the shelf list. 
 
 # Table of Contents
 1. [Folder Structure Setup](#folder-structure-setup)
@@ -15,6 +15,9 @@ Tier 2 processing is done by staff, students, and interns as deemed appropriate.
 8. [TAR Files](#tar-files)
 9. [Bagging Files](#bagging-files)
 10. [Uploading to Keep](#uploading-to-keep)
+11. Finding Aid Edits
+
+---
 
 ## Folder Structure Setup
 1. Create a folder called [collectionName]_workingFiles
@@ -24,6 +27,10 @@ b. Extracted Files; and
 c. Working Files
 3. In Original Disk Images, create folders for each disk image you’re pulling down from the Keep
 4. Copy the folders you just made to Extracted Files
+
+[Back to top](#table-of-contents)
+
+---
 
 ## Extraction 
 ### Pull down from Keep
@@ -47,6 +54,9 @@ a. You’re looking for the [root] folder or the most granular folder you can fi
 9. Once the export has finished, a dialogue box will open with details of how many folders and files have been exported. Click “OK.”
 10. Continue doing these one at a time, paying attention to what number you are on so it exports to the correct folder in Extracted Files
 
+[Back to top](#table-of-contents)
+
+---
 
 ## Virus Scanning
 1. Once the files are extracted, select all of the folders in the Extracted Files folder (Ctrl+A)
@@ -57,11 +67,18 @@ a. You’re looking for the [root] folder or the most granular folder you can fi
 
 Copy the files in Extracted Files to Working Files
 
+[Back to top](#table-of-contents)
+
+---
+
 ## Switching to BitCurator/Ubuntu from Windows
 1. [Instructions here](https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/BC-Windows-Switch.html) 
 2. Eject the hard drive before doing this step, and turn off the hard drive dock OR disconnect the USB cable 
 3. Shut down the computer fully when switching between the two
 
+[Back to top](#table-of-contents)
+
+---
 
 ## XML Files
 1. In BitCurator, copy the XML files created in Tier 1 to the corresponding folder in Working Files</br>
@@ -77,6 +94,9 @@ i. See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated l
 7. Power off the hard drive dock and eject the left hard drive and put back in the cabinet. 
 8. Turn back on the hard drive dock and re-mount the hard drive in BitCurator 
 
+[Back to top](#table-of-contents)
+
+---
 
 ## MD5 File Creation
 *Create MD5 file for Working Files folder*
@@ -86,6 +106,9 @@ i. See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated l
 4. Once done, a file called md5 will appear in the main Working Files folder
 5. Open it to check the contents
 
+[Back to top](#table-of-contents)
+
+---
 
 ## Deduplication
 1. On the desktop, click the Forensics and Reporting folder
@@ -105,12 +128,19 @@ i. See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated l
 13. Repeat this process for other folders in the collection, removing and adding each one every time
 14. Once done with the individual folders, add the Working Files folder as a whole and run the “Duplicates,” “Empty Directories,” and “Temp Files” options against everything at once
 
+[Back to top](#table-of-contents)
+
+---
 
 ## TAR Files
 1. In [collectionName]_workingFiles, create a folder called [MSS]files
 2. Create TAR files for the Original Disk Images and the Working Files folders </br>
 •	Create TAR file containing both of these folders/files following [these instructions](https://bedwards254.github.io/testBDBC/jekyll/2019/01/29/TAR-files.html)
 3. Put this TAR file in the [MSS]files folder, along with a copy of the MD5 file created above
+
+[Back to top](#table-of-contents)
+
+---
 
 ## Bagging Files
 *Switch to Ubuntu if not already in it, [using these instructions](https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/BC-Windows-Switch.html)*
@@ -122,6 +152,9 @@ i. See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated l
 6. A message should appear saying it is valid </br>
 •	If not, contact the digital archivist</br>
 
+[Back to top](#table-of-contents)
+
+---
 
 ## Uploading to Keep
 *Staff: Follow these instructions to upload the bagged file into the Keep: https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/Keep-Ingest.html*
@@ -130,3 +163,5 @@ i. See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated l
 3. **Hardware:** put the summation of the media, without count
 4. **Other Information:** put *Originally [number of media (six optical discs, 120 3.5” floppy disks, etc.); summation of collection.*
 
+## Finding Aid Edits
+WRITE THESE
