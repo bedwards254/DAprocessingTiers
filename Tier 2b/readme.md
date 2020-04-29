@@ -17,8 +17,9 @@ Tier 2b processing is done by staff, students, and interns as deemed appropriate
 10. [TAR Files](#tar-files)
 11. [Bagging Files](#bagging-files)
 12. [Uploading to Keep](#uploading-to-keep)
-13. Finding Aid Edits
-14. Upload to Reading Room Server
+13. Directory Listing
+14. Finding Aid Edits
+15. Upload to Reading Room Server
 
 ---
 
@@ -187,6 +188,13 @@ WRITE THESE
 2. **Imaging Date:** put the date the bag was created
 3. **Hardware:** put the summation of the media, without count
 4. **Other Information:** put *Originally [number of media (six optical discs, 120 3.5” floppy disks, etc.); summation of collection.*
+
+[Back to top](#table-of-contents)
+
+---
+
+## Directory Listing
+WRITE THIS
 
 [Back to top](#table-of-contents)
 
