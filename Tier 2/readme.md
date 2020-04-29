@@ -16,7 +16,6 @@ Tier 2 processing is done by staff, students, and interns as deemed appropriate.
 9. [Bagging Files](#bagging-files)
 10. [Uploading to Keep](#uploading-to-keep)
 11. Finding Aid Edits
-12. Uploading to Reading Room Server
 
 ---
 
