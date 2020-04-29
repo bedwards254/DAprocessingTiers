@@ -1,12 +1,12 @@
 # Table of Contents
 ## ZIP 100 Disks
-* [Equipment]
-* Instructions
-* How to Remove the Disk
+* [Equipment](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Imaging/Zip_Disks.md#equipment)
+* [Instructions](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Imaging/Zip_Disks.md#instructions)
+* [How to Remove the Disk](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Imaging/Zip_Disks.md#to-remove-the-disk)
 
 ## ZIP 250 Disks
-* Equipment
-* Intructions
+* [Equipment](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Imaging/Zip_Disks.md#equipment-needed)
+* [Intructions](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Imaging/Zip_Disks.md#instructions-1)
 
 ---
 
@@ -55,7 +55,7 @@ Refer to Metadata Guidelines for guidance:
 
 **NOTE:** You can review the disk image contents by right-clicking the object and selecting *Scripts > Mount Disk Image*. The disk image will be mounted on the Desktop. Double-click to open it and view files.
 
-### TO REMOVE THE DISK:
+### How to Remove the Disk:
 - The button on the front to eject the disk *DOES NOT WORK*. Instead:
 - Find a paperclip from someone
 - There is a small hole on the back left side of the drive
