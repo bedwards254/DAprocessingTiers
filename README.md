@@ -1,6 +1,6 @@
-# About the Rose Library Digital Archives Processing Tiers
+# Rose Library Digital Archives Processing Tiers
 
-This document outlines the processing tiers for the Digital Archives program at the Rose Library, Emory University, Atlanta, GA. 
+This document outlines the processing tiers for the Digital Archives program at the Stuart A. Rose Manuscripts, Archives, and Rare Books Library at Emory University in Atlanta, GA. 
 
 ## Table of Contents
 * [Tier 1 - Accessioning and Imaging](https://github.com/bedwards254/DAprocessingTiers/tree/master/Tier%201)
