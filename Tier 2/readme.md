@@ -15,7 +15,7 @@ Tier 2 processing is done by staff, students, and interns as deemed appropriate.
 8. [TAR Files](#tar-files)
 9. [Bagging Files](#bagging-files)
 10. [Uploading to Keep](#uploading-to-keep)
-11. [Finding Aid Edits] (#finding-aid-edits)
+11. [Finding Aid Edits](#finding-aid-edits)
 
 ---
 
