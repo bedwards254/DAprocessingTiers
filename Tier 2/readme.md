@@ -72,7 +72,7 @@ Copy the files in Extracted Files to Working Files
 ---
 
 ## Switching to BitCurator/Ubuntu from Windows
-1. [Instructions here](https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/BC-Windows-Switch.html) 
+1. [Instructions here](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Switching_BitCurator_Windows.md) 
 2. Eject the hard drive before doing this step, and turn off the hard drive dock OR disconnect the USB cable 
 3. Shut down the computer fully when switching between the two
 
@@ -135,7 +135,7 @@ i. See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated l
 ## TAR Files
 1. In [collectionName]_workingFiles, create a folder called [MSS]files
 2. Create TAR files for the Original Disk Images and the Working Files folders </br>
-•	Create TAR file containing both of these folders/files following [these instructions](https://bedwards254.github.io/testBDBC/jekyll/2019/01/29/TAR-files.html)
+•	Create TAR file containing both of these folders/files following [these instructions](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Imaging/TAR_Files.md)
 3. Put this TAR file in the [MSS]files folder, along with a copy of the MD5 file created above
 
 [Back to top](#table-of-contents)
@@ -143,7 +143,7 @@ i. See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated l
 ---
 
 ## Bagging Files
-*Switch to Ubuntu if not already in it, [using these instructions](https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/BC-Windows-Switch.html)*
+*Switch to Ubuntu if not already in it, [using these instructions](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Switching_BitCurator_Windows.md)*
 1. In BitCurator, mount the hard drive and navigate to the [collectionName]_workingFiles folder
 2. Right click inside the folder and select “Open in Terminal”
 3. In the terminal, type `bagger.py –md5 –sha1 –contact-name=[netID] ./[MSS]files`
