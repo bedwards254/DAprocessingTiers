@@ -168,7 +168,7 @@ i. See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated l
 ---
 
 ## Finding Aid Edits
-*Since these instructions are for collections that have no viable research value due to either physical or digital degradation, only the Processing Note needs to be updated.*
+*Since these instructions are for collections that have no viable research value due to either physical or digital degradation, only the **Processing Note** needs to be updated.*
 
 Processing Note: 
 1. *If the material did not image:* 
