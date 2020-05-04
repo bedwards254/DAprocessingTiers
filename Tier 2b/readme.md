@@ -13,13 +13,13 @@ Tier 2b processing is done by staff, students, and interns as deemed appropriate
 7. [Deduplication](#deduplication)</br>
 •	[FSLint](#fslint)</br>
 8. [Normalizing Files](#normalizing-files)
-9. [Arranging Files](#arraning-files)
+9. [Arranging Files](#arranging-files)
 10. [TAR Files](#tar-files)
 11. [Bagging Files](#bagging-files)
 12. [Uploading to Keep](#uploading-to-keep)
-13. Directory Listing
-14. Finding Aid Edits
-15. Upload to Reading Room Server
+13. [Directory Listing](#directory-listing)
+14. [Finding Aid Edits](#finding-aid-edits)
+15. [Upload to Reading Room Server](#upload-to-reading-room-server)
 
 ---
 
