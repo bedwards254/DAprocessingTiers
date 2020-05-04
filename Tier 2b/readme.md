@@ -223,7 +223,16 @@ a. If there are any files noted by Windows as duplicates, select **See details f
 ---
 
 ## Finding Aid Edits
-WRITE THESE
+* *Extent:* at end have “[amount] born digital material ([# files])
+* *Summary:* make sure “and born digital material” is included
+* *Restrictions on access:* Access to processed born digital materials is only available in the Stuart A. Rose Manuscript, Archives, and Rare Book Library (the Rose Library). Use of the original digital media is restricted.
+* *Appraisal note (if applicable):* Blank and/or broken disks have been discarded.
+* *Processing note:* Born digital materials processed, arranged, and described by [name], [date]. Born digital materials include files taken from [list of items]. 
+* a. *If finding aid has series:* For information as to how these materials were processed, see the processing note in the description of series [number], Born digital material. *(Or series the born digital material is found in)*
+* b. *If finding aid does not have series:* Forensic disk images were created from the [material] using [program]. Individual files were extracted using FTK Imager and scanned for viruses using McAfee’s anti-virus software; none were found. Duplicate and system files have been removed, and files were scanned for personally identifiable information; none were found. Text-based files were migrated to PDF using Adobe Acrobat and image files were migrated to JPG using Microsoft Paint. File dates have been changed from the original creation date. Access copies retain original folder titles and file names. < /br>
+* *Scope and content:* Update the scope and content note of the finding aid as a whole and/or within the series description to reflect what types of collection materials are found from the born digital materials. 
+* *Container list XML code:* ```<c01 level="file"><did><container type="box">RRL</container><container type="folder" /><unittitle>Access copies of processed born digital material [Reading room access ONLY]</unittitle></did></c01>```
+
 
 [Back to top](#table-of-contents)
 
