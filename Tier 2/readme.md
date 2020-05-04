@@ -17,6 +17,8 @@ Tier 2 processing is done by staff, students, and interns as deemed appropriate.
 10. [Uploading to Keep](#uploading-to-keep)
 11. [Finding Aid Edits](#finding-aid-edits)
 
+[Examples](#examples)
+
 ---
 
 ## Folder Structure Setup
@@ -182,3 +184,12 @@ Processing Note:
 
 [Back to top](#table-of-contents)
 
+---
+
+## Examples
+* [Morris B. Arbam papers](https://findingaids.library.emory.edu/documents/abram514/)
+* [Elizabeth Dewberry papers](https://findingaids.library.emory.edu/documents/dewberry666/)
+* [Horace Mann and Julia W. Bond family papers](https://findingaids.library.emory.edu/documents/bond1144/)
+* [Mari Evans papers](https://findingaids.library.emory.edu/documents/evans1284/)
+
+[Back to top](#table-of-contents)
