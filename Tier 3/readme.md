@@ -1,6 +1,6 @@
 # Tier 3 - Full Processing with Restrictions
 Tier 3 processing is done by digital archives staff **only**, as these collections are normally very large, or have unqiue 
-restrictions that require more attention. While it follows most of the same steps as [Tier 2b](https://github.com/bedwards254/DAprocessingTiers/tree/master/Tier%202b), there are some key differences: restrictions and arrangment. Restrictions set by the donor and outlined in the Deed for physical material should be carried over to born digital materials, unless explicitly stated otherwise. There may also be cases where there are additional restrictions on born digital material, separate from physical material. For more information about arrangement, see part 9, Arranging Files. 
+restrictions that require more attention. While it follows most of the same steps as [Tier 2b](https://github.com/bedwards254/DAprocessingTiers/tree/master/Tier%202b), there are some key differences: restrictions and arrangment. Restrictions set by the donor and outlined in the Deed for physical material should be carried over to born digital materials, unless explicitly stated otherwise. There may also be cases where there are additional restrictions on born digital material, separate from physical material. For more information about arrangement, see [part 10, Arranging Files](#arranging-files). 
 
 # Table of Contents
 1. [Folder Structure Setup](#folder-structure-setup)
