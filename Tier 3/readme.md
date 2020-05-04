@@ -23,6 +23,8 @@ restrictions that require more attention. While it follows most of the same step
 14. [Finding Aid Edits](#finding-aid-edits)
 15. [Upload to Reading Room Server](#upload-to-reading-room-server)
 
+[Examples](#examples)
+
 ---
 
 ## Folder Structure Setup
@@ -251,5 +253,17 @@ a. If there are any files noted by Windows as duplicates, select **See details f
 
 ## Upload to Reading Room Server
 Talk with the Digital Archivist or Elizabeth Russey Roke to upload to the Reading Room server. 
+
+[Back to top](#table-of-contents)
+
+---
+
+## Examples
+* [Alice Walker papers](https://findingaids.library.emory.edu/documents/walker1061/)
+* [Rita Ann Higgins papers](https://findingaids.library.emory.edu/documents/higgins1194/)
+* [Southern Christian Leadership Conference records](https://findingaids.library.emory.edu/documents/sclc1083/)
+* [Eamon Grennan papers](https://findingaids.library.emory.edu/documents/grennan1150/)
+* [Tracy K. Smith papers](https://findingaids.library.emory.edu/documents/smith1468/)
+* [Alli Royce Soble papers](https://findingaids.library.emory.edu/documents/soble1315/)
 
 [Back to top](#table-of-contents)
