@@ -15,13 +15,13 @@ restrictions that require more attention. While it follows most of the same step
 •	[FSLint](#fslint)</br>
 8. [BulkReviewer/BulkExtractor](#bulkreviewerbulkextractor)
 8. [Normalizing Files](#normalizing-files)
-9. Arranging Files
+9. [Arranging Files](#arranging-files)
 10. [TAR Files](#tar-files)
 11. [Bagging Files](#bagging-files)
 12. [Uploading to Keep](#uploading-to-keep)
-13. Directory Listing
-14. Finding Aid Edits
-15. Upload to Reading Room Server
+13. [Directory Listing](#directory-listing)
+14. [Finding Aid Edits](#finding-aid-edits)
+15. [Upload to Reading Room Server](#upload-to-reading-room-server)
 
 ---
 
@@ -169,7 +169,15 @@ a. You can also choose each indivudal folder inside WorkingFiles, if that's what
 ---
 
 ## Arranging Files
-WRITE THESE
+*[Switch back to Windows if not already there](https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/BC-Windows-Switch.html)*
+1. In the main collection folder, create a folder called [MSS_ID]_[title_statement] (Example: 1297_NathanielMackeyPapers)
+2. Right-click the folder you just created, and choose "Open in New Window." 
+3. In the other window, navigate to the *WorkingFiles* folder. 
+4. In the WorkingFiles folder, navigate to the individual folders and copy the files in there past the ```[root]``` folder (if applicable). If there are any folders in the directory, copy those as a whole. 
+5. In the *[MSS_ID]_[title_statement]* folder, create folders either: (a) by material type (floppy disks and optical discs, hard drive model, etc), or (b) arrange to match series arrangement. 
+6. In the *[MSS_ID]_[title_statement]* folder, paste the files copied directly into where they belong. 
+7. Repeat this process for the rest of the individual folders in WorkingFiles. 
+a. If there are any files noted by Windows as duplicates, select **See details for all files** in the pop-up window. Select **BOTH** checkboxes at the top of the list to select both copies of the materials. Windows will automatically append a "(1)" to the end of the original file title. 
 
 [Back to top](#table-of-contents)
 
@@ -211,20 +219,37 @@ WRITE THESE
 ---
 
 ## Directory Listing
-WRITE THIS
+*Switch to Ubuntu, [using these instructions](https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/BC-Windows-Switch.html)*
+1. Navigate to the main collection folder, [collectionName]_[MSS_ID]
+2. Right-click on the *[MSS_ID]_[title_statement]* folder and select **Open in Terminal**
+3. In the terminal, type ```ls -FR > [MSS_ID]_[title_statement].txt```
+4. Hit **Enter**
+5. When the command is done running, go to the *[MSS_ID]_[title_statement]* folder in the file viewer and select the *[MSS_ID]_[title_statement].txt* file created. 
+6. ```Ctrl+X``` the file and navigate to the main *[collectionName]_[MSS_ID]* folder and *Paste* it there. 
+7. Double-click the TXT file just copied to open it in the text editor software. 
+**LOOK THE REST OF THIS UP TO REMEMBER**
 
 [Back to top](#table-of-contents)
 
 ---
 
 ## Finding Aid Edits
-WRITE THESE
+* *Extent:* at end have “[amount] born digital material ([# files])
+* *Summary:* make sure “and born digital material” is included
+* *Restrictions on access:* Access to processed born digital materials is only available in the Stuart A. Rose Manuscript, Archives, and Rare Book Library (the Rose Library). Use of the original digital media is restricted.
+* *Appraisal Note (if applicable):* Blank and/or broken disks have been discarded.
+* *Processing Note:* Born digital materials processed, arranged, and described by [name], [date]. Born digital materials include files taken from [list of items]. 
+* a. *If finding aid has series:* For information as to how these materials were processed, see the processing note in the description of series [number], Born digital material. *(Or series the born digital material is found in. Add the below note to the **series level** Processing Note)*
+* b. *If finding aid does not have series, put this in the main Processing Note area:* Forensic disk images were created from the [material] using [program]. Individual files were extracted using FTK Imager and scanned for viruses using McAfee’s anti-virus software; none were found. Duplicate and system files have been removed, and files were scanned for personally identifiable information; none were found. Collection-level restrictions have also been applied to born digital materials. Text-based files were migrated to PDF using Adobe Acrobat and image files were migrated to JPG using Microsoft Paint. File dates have been changed from the original creation date. Access copies retain original folder titles and file names. 
+* *Scope and content:* Update the scope and content note of the finding aid as a whole and/or within the series description to reflect what types of collection materials are found from the born digital materials. 
+* *Container list XML code:* ```<c01 level="file"><did><container type="box">RRL</container><container type="folder" /><unittitle>Access copies of processed born digital material [Reading room access ONLY]</unittitle></did></c01>```
+
 
 [Back to top](#table-of-contents)
 
 ---
 
 ## Upload to Reading Room Server
-WRITE THESE
+Talk with the Digital Archivist or Elizabeth Russey Roke to upload to the Reading Room server. 
 
 [Back to top](#table-of-contents)
