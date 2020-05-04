@@ -20,7 +20,7 @@ Tier 2 processing is done by staff, students, and interns as deemed appropriate.
 ---
 
 ## Folder Structure Setup
-1. Create a folder called [collectionName]_workingFiles
+1. Create a folder called [collectionName]_[MSS_ID]
 2. Inside of that folder, create 3 folders called: 
 a. Original Disk Images;
 b. Extracted Files; and
