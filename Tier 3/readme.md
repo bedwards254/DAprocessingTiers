@@ -155,7 +155,14 @@ WRITE THIS
 5. If you run into an odd or unfamiliar file type, contact the digital archivist for assistance
 
 *To stay in BitCurator/Ubuntu:*
-1. Use *convert scripts* in BitCurator – ASK ZL TO WRITE OUT COMPREHENSIVE README FOR THIS
+1. Locate the convertFINAL.bash file on the desktop. Double-click to open the file in the text editor. 
+2. In the text editor, select all of the text and right-click to copy (or do ```Ctrl+C```)
+3. In the collection folder, navigate to the WorkingFiles folder. Right-click and select "Open in Terminal"
+a. You can also choose each indivudal folder inside WorkingFiles, if that's what you prefer. 
+4. In the terminal, double-check the file path to make sure the right folder is selected. 
+5. In the terminal, right-click and select *Paste* to paste the previously copied text into the terminal window.
+6. Hit *Enter* on the keyboard. 
+7. Keep an eye on the terminal window as the script runs, to make sure it doesn't get stuck on anything. If it does, consult the Digital Archivist. 
 
 [Back to top](#table-of-contents)
 
