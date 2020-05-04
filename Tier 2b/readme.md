@@ -13,7 +13,7 @@ Tier 2b processing is done by staff, students, and interns as deemed appropriate
 7. [Deduplication](#deduplication)</br>
 •	[FSLint](#fslint)</br>
 8. [Normalizing Files](#normalizing-files)
-9. Arranging Files
+9. [Arranging Files](#arraning-files)
 10. [TAR Files](#tar-files)
 11. [Bagging Files](#bagging-files)
 12. [Uploading to Keep](#uploading-to-keep)
@@ -24,7 +24,7 @@ Tier 2b processing is done by staff, students, and interns as deemed appropriate
 ---
 
 ## Folder Structure Setup
-1. Create a folder called [collectionName]_workingFiles
+1. Create a folder called [collectionName]_[MSS_ID] (Example: Mackey_1297)
 2. Inside of that folder, create 3 folders called: 
 a. Original Disk Images;
 b. Extracted Files; and
@@ -145,14 +145,28 @@ i. See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated l
 5. If you run into an odd or unfamiliar file type, contact the digital archivist for assistance
 
 *To stay in BitCurator/Ubuntu:*
-1. Use *convert scripts* in BitCurator – ASK ZL TO WRITE OUT COMPREHENSIVE README FOR THIS
+1. Locate the convertFINAL.bash file on the desktop. Double-click to open the file in the text editor. 
+2. In the text editor, select all of the text and right-click to copy (or do ```Ctrl+C```)
+3. In the collection folder, navigate to the WorkingFiles folder. Right-click and select "Open in Terminal"
+a. You can also choose each indivudal folder inside WorkingFiles, if that's what you prefer. 
+4. In the terminal, double-check the file path to make sure the right folder is selected. 
+5. In the terminal, right-click and select *Paste* to paste the previously copied text into the terminal window.
+6. Hit *Enter* on the keyboard. 
+7. Keep an eye on the terminal window as the script runs, to make sure it doesn't get stuck on anything. If it does, consult the Digital Archivist. 
 
 [Back to top](#table-of-contents)
 
 ---
 
 ## Arranging Files
-WRITE THESE
+*[Switch back to Windows if not already there](https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/BC-Windows-Switch.html)*
+1. In the main collection folder, create a folder called [MSS_ID]_[title_statement] (Example: 1297_NathanielMackeyPapers)
+2. Right-click the folder you just created, and choose "Open in New Window." 
+3. In the other window, navigate to the *WorkingFiles* folder. 
+4. In the WorkingFiles folder, navigate to the individual folders and copy the files in there past the ```[root]``` folder (if applicable). If there are any folders in the directory, copy those as a whole. 
+5. In the *[MSS_ID]_[title_statement]* folder, paste the files copied directly, with no organization. 
+6. Repeat this process for the rest of the individual folders in WorkingFiles. 
+a. If there are any files noted by Windows as duplicates, select **See details for all files** in the pop-up window. Select **BOTH** checkboxes at the top of the list to select both copies of the materials. Windows will automatically append a "(1)" to the end of the original file title. 
 
 [Back to top](#table-of-contents)
 
@@ -194,7 +208,15 @@ WRITE THESE
 ---
 
 ## Directory Listing
-WRITE THIS
+*Switch to Ubuntu, [using these instructions](https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/BC-Windows-Switch.html)*
+1. Navigate to the main collection folder, [collectionName]_[MSS_ID]
+2. Right-click on the *[MSS_ID]_[title_statement]* folder and select **Open in Terminal**
+3. In the terminal, type ```ls -FR > [MSS_ID]_[title_statement].txt```
+4. Hit **Enter**
+5. When the command is done running, go to the *[MSS_ID]_[title_statement]* folder in the file viewer and select the *[MSS_ID]_[title_statement].txt* file created. 
+6. ```Ctrl+X``` the file and navigate to the main *[collectionName]_[MSS_ID]* folder and *Paste* it there. 
+7. Double-click the TXT file just copied to open it in the text editor software. 
+**LOOK THE REST OF THIS UP TO REMEMBER**
 
 [Back to top](#table-of-contents)
 
@@ -208,6 +230,6 @@ WRITE THESE
 ---
 
 ## Upload to Reading Room Server
-WRITE THESE
+Talk with the Digital Archivist or Elizabeth Russey Roke to upload to the Reading Room server. 
 
 [Back to top](#table-of-contents)
