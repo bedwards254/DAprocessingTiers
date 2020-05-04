@@ -21,6 +21,8 @@ Tier 2b processing is done by staff, students, and interns as deemed appropriate
 14. [Finding Aid Edits](#finding-aid-edits)
 15. [Upload to Reading Room Server](#upload-to-reading-room-server)
 
+[Examples](#examples)
+
 ---
 
 ## Folder Structure Setup
@@ -240,5 +242,16 @@ a. If there are any files noted by Windows as duplicates, select **See details f
 
 ## Upload to Reading Room Server
 Talk with the Digital Archivist or Elizabeth Russey Roke to upload to the Reading Room server. 
+
+[Back to top](#table-of-contents)
+
+---
+
+## Examples
+* [Thomas Kinsella papers](https://findingaids.library.emory.edu/documents/kinsella774/)
+* [Constance W. Curry paper](https://findingaids.library.emory.edu/documents/curry818/)
+* [Henry H. and Ella Pearson Mitchell papers](https://findingaids.library.emory.edu/documents/mitchell1018/)
+* [AID Atlanta records](https://findingaids.library.emory.edu/documents/aidatlanta1264/)
+* [Teri Darnell photographs](https://findingaids.library.emory.edu/documents/darnell1450/)
 
 [Back to top](#table-of-contents)
