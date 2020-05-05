@@ -142,8 +142,8 @@ i. See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated l
 
 
 ## Bulk Reviewer/BulkExtractor
-[Official Bulk Reviewer documentation](https://bulk-reviewer.readthedocs.io/en/latest/)
-[Bulk Reviewer GitHub page](https://github.com/bulk-reviewer/bulk-reviewer)
+1. [Official Bulk Reviewer documentation](https://bulk-reviewer.readthedocs.io/en/latest/)
+2. [Bulk Reviewer GitHub page](https://github.com/bulk-reviewer/bulk-reviewer)
 
 *Notes:* 
 * This is to be downloaded and used in BitCurator. 
