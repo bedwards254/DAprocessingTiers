@@ -13,7 +13,7 @@ restrictions that require more attention. While it follows most of the same step
 6. [MD5 File Creation](#md5-file-creation)
 7. [Deduplication](#deduplication)</br>
 •	[FSLint](#fslint)</br>
-8. [BulkReviewer/BulkExtractor](#bulkreviewerbulkextractor)
+8. [Bulk Reviewer/BulkExtractor](#bulk-reviewerbulkextractor)
 8. [Normalizing Files](#normalizing-files)
 9. [Arranging Files](#arranging-files)
 10. [TAR Files](#tar-files)
