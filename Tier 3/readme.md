@@ -141,8 +141,16 @@ i. See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated l
 ---
 
 
-## BulkReviewer/BulkExtractor
-WRITE THIS
+## Bulk Reviewer/BulkExtractor
+[Official Bulk Reviewer documentation](https://bulk-reviewer.readthedocs.io/en/latest/)
+[Bulk Reviewer GitHub page](https://github.com/bulk-reviewer/bulk-reviewer)
+
+*Notes:* 
+* This is to be downloaded and used in BitCurator. 
+* If using a regular expressions text file, make sure it is placed on the Desktop and then copied to the hard drive once the scan is complete. 
+* For the regular expressions file, use only one word per line. Phrases or names like "Billy Bob Joe" will need to be on a single line each. There will also need to be a capital version and a lower-case version (ex. "Bob" and "bob"). There is no need for quotation marks within the text file itself. 
+* Save any reports to a folder on the Desktop (ex. BurkeBR), since it doesn't like to save to the hard drive
+* Sometimes there will be an error code, but it will still show the results. Sometimes it's really an error code, so keep an eye on it. 
 
 [Back to top](#table-of-contents)
 
