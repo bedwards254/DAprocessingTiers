@@ -84,13 +84,20 @@ Copy the files in Extracted Files to Working Files
 
 ## XML Files
 1. In BitCurator, copy the XML files created in Tier 1 to the corresponding folder in Working Files</br>
-a. Staff: locate the corresponding hard drive where the original disk images are stored</br>
-i. See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated list</br>
-2. Before turning the hard drive dock, insert the hard drive with the original disk images into the LEFT slot on the dock
+a. Staff: locate the corresponding hard drive where the original disk images are stored (See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated list)</br>
+2. Before turning on the hard drive dock, insert the hard drive with the original disk images into the LEFT slot on the dock
 3. Turn on the hard drive dock and mount both hard drives in BitCurator (open file directory on right computer and click on each hard drive ONCE to mount them)
 4. Locate “Copy2” on the desktop
 5. Edit “Copy2” to match the correct file paths to copy all XML files from the collection on the original hard drive to the corresponding folders in Working Files on the new hard drive (unless working on the same hard drive, then even easier)</br>
-**POST CODE HERE AND SHOW EDITS**</br>
+
+  ```cd /media/bcadmin/New\ Volume1/digitalArchives/diskImages/Young_diskImages/ ```</br>
+  ```for i in 1447_{04..99} ```</br>
+   ``` do ```</br>
+    ```cp $i/*.xml /media/bcadmin/New\ Volume/digitalArchives/workingFiles/Young_1447/OriginalDiskImages/$i ```</br>
+    ```done``` </br>
+
+</br>
+
 *Note:* if a folder was deleted in the steps above because there was nothing in it or didn’t exist in the Keep, these will automatically skip in this process. </br>
 6. Once copying is complete, eject both hard drives from the computer by clicking the arrow next to their names in the file directory and then right clicking and selecting “Safely Remove Drive”
 7. Power off the hard drive dock and eject the left hard drive and put back in the cabinet. 
