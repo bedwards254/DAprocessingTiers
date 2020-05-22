@@ -1,6 +1,8 @@
 # Tier 3 - Full Processing with Restrictions
 Tier 3 processing is done by digital archives staff **only**, as these collections are normally very large, or have unqiue 
-restrictions that require more attention. While it follows most of the same steps as [Tier 2b](https://github.com/bedwards254/DAprocessingTiers/tree/master/Tier%202b), there are some key differences: restrictions and arrangment. Restrictions set by the donor and outlined in the Deed for physical material should be carried over to born digital materials, unless explicitly stated otherwise. There may also be cases where there are additional restrictions on born digital material, separate from physical material. For more information about arrangement, see [part 10, Arranging Files](#arranging-files). 
+restrictions that require more attention. While it follows most of the same steps as [Tier 2b](https://github.com/bedwards254/DAprocessingTiers/tree/master/Tier%202b), there are some key differences: restrictions and arrangment. 
+
+Restrictions set by the donor and outlined in the Deed for physical material should be carried over to born digital materials, unless explicitly stated otherwise. There may also be cases where there are additional restrictions on born digital material, separate from physical material. For more information about arrangement, see [part 10, Arranging Files](#arranging-files). 
 
 # Table of Contents
 1. [Folder Structure Setup](#folder-structure-setup)
@@ -18,8 +20,8 @@ restrictions that require more attention. While it follows most of the same step
 9. [Arranging Files](#arranging-files)
 10. [TAR Files](#tar-files)
 11. [Bagging Files](#bagging-files)
-12. [Uploading to Keep](#uploading-to-keep)
-13. [Directory Listing](#directory-listing)
+12. [Directory Listing](#directory-listing)
+13. [Uploading to Keep](#uploading-to-keep)
 14. [Finding Aid Edits](#finding-aid-edits)
 15. [Upload to Reading Room Server](#upload-to-reading-room-server)
 
@@ -28,23 +30,28 @@ restrictions that require more attention. While it follows most of the same step
 ---
 
 ## Folder Structure Setup
-1. Create a folder called [collectionName]_[MSS_ID] (Example: Mackey_1297)
-2. Inside of that folder, create 3 folders called: 
-a. Original Disk Images;
-b. Extracted Files; and
+*This step should take place in the Windows environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*
+1. Connect the hard drive dock to the rear USB port on the computer via USB cable. 
+2. The Windows file explorer should automatically open once the hard drive is mounted and recognized by the computer. 
+3. In the file explorer, double-click on the *digitalArchives* folder, then double-click the *workingFiles* folder to open it. 
+4. Create a folder inside *workingFiles* called [collectionName]_[MSS_ID] (Example: Mackey_1297)
+5. Inside of that folder, create 3 folders called: </br>
+a. Original Disk Images;</br>
+b. Extracted Files; and </br>
 c. Working Files
-3. In Original Disk Images, create folders for each disk image you’re pulling down from the Keep
-4. Copy the folders you just made to Extracted Files
+6. In Original Disk Images, create folders for each disk image you’re pulling down from the Keep
+7. Copy the folders you just made into Extracted Files
 
 [Back to top](#table-of-contents)
 
 ---
 
 ## Extraction 
+*The following steps should take place in the Windows environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
 ### Pull down from Keep
-*Staff:* pull down images from Keep (just images, not any accompanying material) on Windows side </br>
-**Note:** these will pull down with their PID as the identifying title, so be sure to pay attention to which one you are on to click and drag it to the proper folder in Original Disk Images </br>
-**Note:** If a number is skipped in the Keep files, delete that folder from Original Disk Images and Extracted Files
+**Staff:** Pull down images from Keep (just images, not any accompanying material) on Windows side. To do this, log into the Keep using your netID, and search for the collection or specific image you want to extract. Once you locate the disk image in the Keep, click on it to open the metadata form. You should see an option to download "Original Disk Image" at the very top - if you do not, talk with Elizabeth Russey Roke to double-check your Keep access level. </br></br>
+*Note:* these will pull down with their PID as the identifying title, so be sure to pay attention to which one you are on to click and drag it to the proper folder in Original Disk Images </br></br>
+*Note:* If a number is skipped in the Keep files, delete that folder from Original Disk Images and Extracted Files - this means that specific number either did not image or there was an issue uploading into the Keep. Check the Processing Plan for more information. 
 
 ### FTK Imager
 *Student/Staff:*
@@ -67,6 +74,7 @@ a. You’re looking for the [root] folder or the most granular folder you can fi
 ---
 
 ## Virus Scanning
+*This step should take place in the Windows environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*
 1. Once the files are extracted, select all of the folders in the Extracted Files folder (Ctrl+A)
 2. Right click and select “Scan with McAfee Virus Defense”
 3. A window will pop up showing how many files are being scanned
@@ -89,36 +97,44 @@ Copy the files in Extracted Files to Working Files
 ---
 
 ## XML Files
-1. In BitCurator, copy the XML files created in Tier 1 to the corresponding folder in Working Files</br>
-a. Staff: locate the corresponding hard drive where the original disk images are stored</br>
-i. See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated list</br>
-2. Before turning the hard drive dock, insert the hard drive with the original disk images into the LEFT slot on the dock
-3. Turn on the hard drive dock and mount both hard drives in BitCurator (open file directory on right computer and click on each hard drive ONCE to mount them)
-4. Locate “Copy2” on the desktop
-5. Edit “Copy2” to match the correct file paths to copy all XML files from the collection on the original hard drive to the corresponding folders in Working Files on the new hard drive (unless working on the same hard drive, then even easier)</br>
-**POST CODE HERE AND SHOW EDITS**</br>
-*Note:* if a folder was deleted in the steps above because there was nothing in it or didn’t exist in the Keep, these will automatically skip in this process. </br>
-6. Once copying is complete, eject both hard drives from the computer by clicking the arrow next to their names in the file directory and then right clicking and selecting “Safely Remove Drive”
-7. Power off the hard drive dock and eject the left hard drive and put back in the cabinet. 
-8. Turn back on the hard drive dock and re-mount the hard drive in BitCurator 
+*This step should take place in the BitCurator/Ubuntu environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
+**Note:** This step involves the original hard drive the images were created on. Locate the corresponding hard drive where the original disk images are stored (See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated list). </br>
+1. Before turning on the hard drive dock, insert the hard drive with the original disk images into the **LEFT** slot on the dock. 
+2. Turn on the hard drive dock and mount both hard drives in BitCurator (open file directory and click on each hard drive ONCE to mount them). Right-click one of the hard drives and select "Open in new window" so you can see contents of both hard drives simultaneously. 
+3. Locate “Copy2.bash” on the desktop and double-click to open in the text editor. 
+4. Edit “Copy2” to match the correct file paths to copy all XML files from the collection on the original hard drive to the corresponding folders in Working Files on the new hard drive. </br>
+a. To locate the file paths, in the *original* hard drive, select the *digitalArchives* folder, right-click, and select *Properties* from the pop-up list. Check the file path to see if it says *New Volume1* or *New Volume*. If it says *New Volume1*, the code below does not need edits; if it says *New Volume*, edit the *New\ Volume* sections below. </br>
 
+  ```cd /media/bcadmin/New\ Volume1/digitalArchives/diskImages/[collection_diskImages/ ```</br>
+  ```for i in [MSS_ID]_{[startNumber]..[endNumber]} ```</br>
+   ``` do ```</br>
+    ```cp $i/*.xml /media/bcadmin/New\ Volume/digitalArchives/workingFiles/[collectionName]_[MSS_ID]/OriginalDiskImages/$i ```</br>
+    ```done``` </br>
+
+*Note:* if a folder was deleted in the steps above because there was nothing in it or didn’t exist in the Keep, these will automatically skip in this process. </br></br>
+5. Once copying is complete, eject both hard drives from the computer by clicking the arrow next to their names in the file directory and then right clicking and selecting “Safely Remove Drive”</br>
+6. Power off the hard drive dock and eject the left hard drive and put back in the cabinet. </br>
+7. Turn back on the hard drive dock and re-mount the hard drive in BitCurator </br>
 [Back to top](#table-of-contents)
 
 ---
 
 ## MD5 File Creation
+*This step should take place in the BitCurator/Ubuntu environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.* </br>
+
 *Create MD5 file for Working Files folder*
 1. Select all the folders in Working Files
 2. Right click and select “Scripts” and then “Calculate MD5 script”
 3. A pop-up box will appear showing the progress
 4. Once done, a file called md5 will appear in the main Working Files folder
-5. Open it to check the contents
+5. Open it to check the file has the MD5 calculations for each folder [link to example?]
 
 [Back to top](#table-of-contents)
 
 ---
 
 ## Deduplication
+*These steps should take place in the BitCurator/Ubuntu environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
 1. On the desktop, click the Forensics and Reporting folder
 2. Double click FSLint to launch it
 
@@ -134,22 +150,23 @@ i. See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated l
 11. Delete all the empty directories which appear
 12. Do the same for the “Temp Files” tab
 13. Repeat this process for other folders in the collection, removing and adding each one every time
-14. Once done with the individual folders, add the Working Files folder as a whole and run the “Duplicates,” “Empty Directories,” and “Temp Files” options against everything at once
+14. Once done with the individual folders, add the Working Files folder as a whole and run the “Duplicates,” “Empty Directories,” and “Temp Files” options against everything at once. This is to triple-check there are no more lingering duplicate files or empty directories in the collection. 
 
 [Back to top](#table-of-contents)
 
 ---
 
-
 ## Bulk Reviewer/BulkExtractor
+*This step should take place in the BitCurator/Ubuntu environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
 1. [Official Bulk Reviewer documentation](https://bulk-reviewer.readthedocs.io/en/latest/)
 2. [Bulk Reviewer GitHub page](https://github.com/bulk-reviewer/bulk-reviewer)
 
 *Notes:* 
-* This is to be downloaded and used in BitCurator. 
-* If using a regular expressions text file, make sure it is placed on the Desktop and then copied to the hard drive once the scan is complete. 
+* Bulk Reviewer is already downloaded on the lab computer. The application is in the Forensics and Reporting folder on the desktop. Bulk Extractor is located in the same folder, and comes pre-installed in BitCurator. 
+* Following the official documentation is the easiest way to use Bullk Reviewer. 
+* If using a regular expressions text file to search for specific terms or topics that are restricted, make sure it is placed on the Desktop and then copied to the hard drive once the scan is complete. [link to example?]
 * For the regular expressions file, use only one word per line. Phrases or names like "Billy Bob Joe" will need to be on a single line each. There will also need to be a capital version and a lower-case version (ex. "Bob" and "bob"). There is no need for quotation marks within the text file itself. 
-* Save any reports to a folder on the Desktop (ex. BurkeBR), since it doesn't like to save to the hard drive
+* Save any reports to a folder on the Desktop (ex. BurkeBR), since it doesn't like to save to the hard drive due to the naming convention of the hard drive. 
 * Sometimes there will be an error code, but it will still show the results. Sometimes it's really an error code, so keep an eye on it. 
 
 [Back to top](#table-of-contents)
@@ -157,29 +174,32 @@ i. See https://emory.box.com/s/ju2ekovp649mi5w0tbkcpegw8oxittbu for an updated l
 ---
 
 ## Normalizing Files
-*[Switch back to Windows](https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/BC-Windows-Switch.html) to normalize the files using Adobe PDF/Paint/GIMP/Excel/Word*
-1. For Word and Excel files, select multiple (around 10) files at once, right click and select “Convert to Adobe PDF”
-2. Navigate to the correct folder it should go in and hit “Save” in the first dialogue box; do the same for the second dialogue box. 
-3. For TIFF/BMP/PNG files, right click and choose “Open With...” and choose Paint. Do these one at a time. In Paint, choose “Save As…” and choose JPG. Navigate to the proper folder and hit “Save”
-4. For Photoshop/Illustrator files, right click and choose “Open With...” and choose GIMP. Click “Ok” when GIMP asks how to read the file (so, going with normal initial settings). Go to “File” and choose “Export As” and choose JPG/PDF (depending on the file, if drawing or photo, choose JPG. Flyer design choose PDF). Slide the resolution up to 10 and hit “Export” and navigate to proper folder for it to export to. 
-5. If you run into an odd or unfamiliar file type, contact the digital archivist for assistance
-
+### In BitCurator/Ubuntu
 *To stay in BitCurator/Ubuntu:*
-1. Locate the convertFINAL.bash file on the desktop. Double-click to open the file in the text editor. 
+1. Locate the *convertFINAL.bash* file on the desktop. Double-click to open the file in the text editor. 
 2. In the text editor, select all of the text and right-click to copy (or do ```Ctrl+C```)
-3. In the collection folder, navigate to the WorkingFiles folder. Right-click and select "Open in Terminal"
-a. You can also choose each indivudal folder inside WorkingFiles, if that's what you prefer. 
-4. In the terminal, double-check the file path to make sure the right folder is selected. 
+3. In the collection folder, navigate to the WorkingFiles folder. Right-click and select "Open in Terminal"</br>
+a. You can also choose each indivudal folder inside WorkingFiles, if that's what you prefer. </br>
+4. In the terminal, double-check the file path to make sure the right folder is open in the terminal. 
 5. In the terminal, right-click and select *Paste* to paste the previously copied text into the terminal window.
 6. Hit *Enter* on the keyboard. 
 7. Keep an eye on the terminal window as the script runs, to make sure it doesn't get stuck on anything. If it does, consult the Digital Archivist. 
+
+### In Windows
+*[Switch back to Windows](https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/BC-Windows-Switch.html) to normalize the files using Adobe PDF/Paint/GIMP/Excel/Word*</br>
+1. For Word and Excel files, select multiple (around 10) files at once, right click and select “Convert to Adobe PDF”</br>
+a. To select multiple files at once, select the first one, then hold down the "Shift" key and click the last one you want to select in the group. All the files selected should appear blue. </br>
+2. Navigate to the correct folder the PDF should save in, and hit “Save” in the first dialogue box; do the same for the second dialogue box. 
+3. For TIFF/BMP/PNG files, right click and choose “Open With...” and choose Paint. Do these one at a time. In Paint, choose “Save As…” and choose JPG. Navigate to the proper folder and hit “Save”
+4. For Photoshop/Illustrator files, right click and choose “Open With...” and choose GIMP. Click “Ok” when GIMP asks how to read the file (so, going with normal initial settings). Go to “File” at the top and choose “Export As” and choose JPG as the file type in the pop-up box in the bottom scroll list. Slide the resolution up to 10 and hit “Export” and navigate to proper folder for it to export to. 
+5. If you run into an odd or unfamiliar file type, contact the digital archivist for assistance.
 
 [Back to top](#table-of-contents)
 
 ---
 
 ## Arranging Files
-*[Switch back to Windows if not already there](https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/BC-Windows-Switch.html)*
+*This step should take place in the Windows environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.* </br>
 1. In the main collection folder, create a folder called [MSS_ID]_[title_statement] (Example: 1297_NathanielMackeyPapers)
 2. Right-click the folder you just created, and choose "Open in New Window." 
 3. In the other window, navigate to the *WorkingFiles* folder. 
@@ -204,7 +224,7 @@ a. If there are any files noted by Windows as duplicates, select **See details f
 ---
 
 ## Bagging Files
-*Switch to Ubuntu if not already in it, [using these instructions](https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/BC-Windows-Switch.html)*
+*This step should take place in the BitCurator/Ubuntu environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
 1. In BitCurator, mount the hard drive and navigate to the [collectionName]_workingFiles folder
 2. Right click inside the folder and select “Open in Terminal”
 3. In the terminal, type `bagger.py –md5 –sha1 –contact-name=[netID] ./[MSS]files`
@@ -217,9 +237,32 @@ a. If there are any files noted by Windows as duplicates, select **See details f
 
 ---
 
+## Directory Listing
+*This step should take place in the BitCurator/Ubuntu environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
+1. Navigate to the main collection folder, [collectionName]_[MSS_ID]
+2. Right-click on the *[MSS_ID]_[title_statement]* folder and select **Open in Terminal**
+3. In the terminal, type ```ls -FR > [MSS_ID]_[title_statement].txt```
+4. Hit **Enter**
+5. When the command is done running, go to the *[MSS_ID]_[title_statement]* folder in the file viewer and select the *[MSS_ID]_[title_statement].txt* file created. 
+6. ```Ctrl+X``` the file and navigate to the main *[collectionName]_[MSS_ID]* folder and *Paste* it there. 
+7. Double-click the TXT file just copied to open it in the text editor software. 
+8. In the text editor, click on the three (3) stacked lines next to the "Save" button in the top right corner. 
+9. Click the printer icon in the top middle row of icons. 
+10. In the pop-up window, click the extention after "File" near the middle of the window. 
+11. Navigate to the [collectionName]_[MSS_ID] folder on the hard drive in the window. 
+12. In the window, edit the file name to remove the ".txt" extension and then hit "Enter" on the keyboard. This should close out the printer destination window. 
+13. In the remaining window, click "Print" in the top right corner. 
+14. For larger documents/collections, wait until the orange progress bar at the top of the text editor is gone to make sure the PDF is finished being printed. 
+15. Check to see if the PDF is in the [collectionName]_[MSS_ID] folder on the hard drive and close the text editor. 
+
+[Back to top](#table-of-contents)
+
+---
+
 ## Uploading to Keep
-*Staff: Follow these instructions to upload the bagged file into the Keep: https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/Keep-Ingest.html*
-1. **Abstract:** *TAR file of files brought to Tier 2 processing, MD5 file, and original disk image*
+*This step should take place in the Windows environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
+*Staff: Follow [these instructions](https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/Keep-Ingest.html) to upload the bagged file into the Keep. Below is the corresponding metadata to enter into the form in the Keep. *</br>
+1. **Abstract:** *TAR file of files brought to Tier 3 processing, MD5 file, and original disk image*
 2. **Imaging Date:** put the date the bag was created
 3. **Hardware:** put the summation of the media, without count
 4. **Other Information:** put *Originally [number of media (six optical discs, 120 3.5” floppy disks, etc.); summation of collection.*
@@ -228,22 +271,9 @@ a. If there are any files noted by Windows as duplicates, select **See details f
 
 ---
 
-## Directory Listing
-*Switch to Ubuntu, [using these instructions](https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/BC-Windows-Switch.html)*
-1. Navigate to the main collection folder, [collectionName]_[MSS_ID]
-2. Right-click on the *[MSS_ID]_[title_statement]* folder and select **Open in Terminal**
-3. In the terminal, type ```ls -FR > [MSS_ID]_[title_statement].txt```
-4. Hit **Enter**
-5. When the command is done running, go to the *[MSS_ID]_[title_statement]* folder in the file viewer and select the *[MSS_ID]_[title_statement].txt* file created. 
-6. ```Ctrl+X``` the file and navigate to the main *[collectionName]_[MSS_ID]* folder and *Paste* it there. 
-7. Double-click the TXT file just copied to open it in the text editor software. 
-**LOOK THE REST OF THIS UP TO REMEMBER**
-
-[Back to top](#table-of-contents)
-
----
-
 ## Finding Aid Edits
+*This step should take place in the Windows environment, or on a shared department computer with access to Oxygen XML. Talk with Elizabeth Russey Roke to gain access. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
+
 1. *Extent:* at end have “[amount] born digital material ([# files])
 * *To find out the size and number of files:* In Windows, right-click on the *[MSS_ID]_[title_statement]* folder and select *Properties*. A new window will appear with size information and the number of files and folders. For the MB/GB amount, choose the first one (size).
 2. *Summary:* make sure “and born digital material” is included
@@ -254,7 +284,6 @@ a. If there are any files noted by Windows as duplicates, select **See details f
 * b. *If finding aid does not have series, put this in the main Processing Note area:* Forensic disk images were created from the [material] using [program]. Individual files were extracted using FTK Imager and scanned for viruses using McAfee’s anti-virus software; none were found. Duplicate and system files have been removed, and files were scanned for personally identifiable information; none were found. Collection-level restrictions have also been applied to born digital materials. Text-based files were migrated to PDF using Adobe Acrobat and image files were migrated to JPG using Microsoft Paint. File dates have been changed from the original creation date. Access copies retain original folder titles and file names. 
 6. *Scope and content:* Update the scope and content note of the finding aid as a whole and/or within the series description to reflect what types of collection materials are found from the born digital materials. 
 7. *Container list XML code:* ```<c01 level="file"><did><container type="box">RRL</container><container type="folder" /><unittitle>Access copies of processed born digital material [Reading room access ONLY]</unittitle></did></c01>```
-
 
 [Back to top](#table-of-contents)
 
