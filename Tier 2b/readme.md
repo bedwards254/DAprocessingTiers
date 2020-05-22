@@ -241,7 +241,7 @@ a. If there are any files noted by Windows as duplicates, select **See details f
 ## Uploading to Keep
 *This step should take place in the Windows environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
 *Staff: Follow [these instructions](https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/Keep-Ingest.html) to upload the bagged file into the Keep. Below is the corresponding metadata to enter into the form in the Keep. *</br>
-1. **Abstract:** *TAR file of files brought to Tier 2 processing, MD5 file, and original disk image*
+1. **Abstract:** *TAR file of files brought to Tier 2b processing, MD5 file, and original disk image*
 2. **Imaging Date:** put the date the bag was created
 3. **Hardware:** put the summation of the media, without count
 4. **Other Information:** put *Originally [number of media (six optical discs, 120 3.5” floppy disks, etc.); summation of collection.*
