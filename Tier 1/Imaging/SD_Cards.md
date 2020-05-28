@@ -245,6 +245,44 @@ The file should look like this:
 
 # Ingesting into the Keep
 
+## Move packaged content to the server:
+
+### Before you begin:
+
+* This workflow uses tools stored in Windows. If necessary, restart the Digital Archives Lab workstation and boot to the 
+Windows hard drive. You can find instructions on how to do this 
+[here](https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/BC-Windows-Switch.html).
+
+* Ensure that the Digital Archives Lab workstation **is** connected to the Internet by plugging in the ethernet cable if 
+necessary. Unlike many of our processes, ingest into the Keep does require a network connection.
+
+### Connect to the VPN:
+
+1. Launch the BIG-IP Edge Client from the Windows by double-clicking the icon pinned  
+   to the taskbar at the bottom of the screen.
+2. Click **Connect**.
+3. Log-in using the stored Emory NetID and password. If no stored log-in details are 
+   available, you may contact either John, Carrie, or Elizabeth.  
+4. Wait until the connection status has changed to **Connected**. Once connected, the BIG-IP Edge Client window will close automatically.
+
+### Connect to the server via SFTP:
+
+5. Launch Filezilla by double-clicking the Filezilla icon on the Desktop.
+6. From the drop-down **File** menu, select **Site Manager...**
+7. Find and double-click your netID from the list of sites on the left-hand side of the **Site Manager...** window.
+8. Enter your password and hit **OK**.
+9. Filezilla will connect to the server.
+
+**Note:** When looking at the Filezilla window, the file tree for your local computer will be listed on the left-hand side. Once connected to the server, you will see the file tree for the server on the right-hand side. Moving files stored locally to the server simply requires that you drag them from the local file tree and drop them into the relevant folder in the server file tree.
+
+### Move Bags to the server:
+
+10. In the local file tree, navigate to your Bags' location. This is probably D:\digitalArchives\diskImages\Mackey_diskImages.
+11. One by one, drag and drop your verified Bags from their local folder to the **diskimage** folder on the server side.
+12. View the **Successful Transfers** tab at the bottom-left of the Filezilla window to verify that transfer has been completed successfully.
+
+## Ingest Bags from the server into the Keep:
+
 ### Before you begin:
 - The following steps can be performed from your own computer and do not require that you be in the Digital Archives Lab. 
 
