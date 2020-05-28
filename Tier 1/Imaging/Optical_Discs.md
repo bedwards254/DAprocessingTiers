@@ -309,7 +309,7 @@ optical disks, this will be *Guymager (BitCurator 1.0) 0.7.3-1*.
   * **Other information:** Type *Imaged using Guymager in BitCurator environment*.
 9. Complete **Rights Metadata:** 
 - The following field should be completed:
-  * **Access Status:** Select *13: Metadata onlyfrom the drop-down menu*.
+  * **Access Status:** Select *13: Metadata only* from the drop-down menu*.
 10. Hit *Save*.
 
 [Back to top](#table-of-contents)
