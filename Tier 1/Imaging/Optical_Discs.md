@@ -184,7 +184,7 @@ a. Type the following command to create all 20 folders at once and hit **enter**
     mkdir 1297_{150..170}
 	
 6. Each folder needs to contain the following files:
-	a. The forensically packaged disk image (.E01)
+	a. The forensically packaged disk image (.iso)
 	b. The ``fiwalk.xml`` file
 	
 ### Copy files:
@@ -199,7 +199,7 @@ The file should look like this:
 	
 	for i in [MSSnumber]_{[ID]..[ID]}
 		do
-		cp ./$i/*.E01 ./$i/*.xml 
+		cp ./$i/*.iso ./$i/*.xml 
 		./[new netID folder]/$i
 		done
 		
@@ -212,7 +212,7 @@ the folder numbers you are wanting to copy.
 	
 	for i in 123_{01..05}
 		do
-		cp ./$i/*.E01 ./$i/*.xml ./bedwa/$i
+		cp ./$i/*.iso ./$i/*.xml ./bedwa/$i
 		done
 		
 9. In the terminal window, navigate to the desktop using 
