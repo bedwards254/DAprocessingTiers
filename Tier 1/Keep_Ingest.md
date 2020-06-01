@@ -6,7 +6,7 @@
 
 * This workflow uses tools stored in Windows. If necessary, restart the Digital Archives Lab workstation and boot to the 
 Windows hard drive. You can find instructions on how to do this 
-[here](https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/BC-Windows-Switch.html).
+[here](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Switching_BitCurator_Windows.md).
 
 * Ensure that the Digital Archives Lab workstation **is** connected to the Internet by plugging in the ethernet cable if 
 necessary. Unlike many of our processes, ingest into the Keep does require a network connection.
@@ -17,7 +17,7 @@ necessary. Unlike many of our processes, ingest into the Keep does require a net
    to the taskbar at the bottom of the screen.
 2. Click **Connect**.
 3. Log-in using the stored Emory NetID and password. If no stored log-in details are 
-   available, you may contact either John, Carrie, Elizabeth, or Dorry.  
+   available, you may contact either John, Carrie, or Elizabeth.  
 4. Wait until the connection status has changed to **Connected**. Once connected, the BIG-IP Edge Client window will close automatically.
 
 ### Connect to the server via SFTP:
