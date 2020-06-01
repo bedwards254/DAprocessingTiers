@@ -26,7 +26,7 @@
 - GuyMager
 
 ### Instructions:
-1. Make sure the computer is in the BitCurator environment (see [here](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Switching_BitCurator_Windows.md)
+1. Make sure the computer is in the BitCurator environment (see [here](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Switching_BitCurator_Windows.md))
 2. Connect the USB of the ZIP drive to the USB port of the Tableau bridge, using the Iomega USB cable (white)
 3. Connect the Tableau Bridge to the computer using the <span class="blue">BLUE</span> USB cable 
 4. Plug in the Iomega drive to a power source using its provided power cord. A <span class="green">green</span> light should appear on the front of the drive. 
