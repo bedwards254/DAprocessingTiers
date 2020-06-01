@@ -2,7 +2,7 @@
 
 See the [Imaging](https://github.com/bedwards254/DAprocessingTiers/tree/master/Tier%201/Imaging) folder for more information on how to image different types of media upon accessioning. 
 
-Standard disk sizes (to help fill out the processing plan size estimate):
+Standard disk sizes (to help fill out the [processing plan](https://emory.box.com/s/pak4s74af6sjzk62v0isi5jdgzwitvbw) size estimate):
 
 | Media               | Size    |
 |---------------------|---------|
