@@ -1,6 +1,8 @@
 # Tier 2b - Full Processing without Restrictions
 Tier 2b processing is done by staff, students, and interns as deemed appropriate. Tier 2b is built upon what was started with [Tier 2](https://github.com/bedwards254/DAprocessingTiers/tree/master/Tier%202). Tier 2b collections are those that contain relevant collection material, and do not have any restrictions put on them as determined in the Deed. These can be large or small, depending on the collection. Once the files are normalized and arranged, follow the [Finding Aid Edits](#finding-aid-edits) and [Upload to Reading Room Server](#upload-to-reading-room-server) sections below and mark the collection as Tier 2b in the shelf list.
 
+**Note:** To open links in a new tab, right-click (Cmd+click on Mac) on the link. 
+
 # Table of Contents
 1. [Folder Structure Setup](#folder-structure-setup)
 2. [Extraction](#extraction)</br>
