@@ -88,7 +88,7 @@ Copy the files in Extracted Files to Working Files
 ---
 
 ## Switching to BitCurator/Ubuntu from Windows
-1. [Instructions here](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Switching_BitCurator_Windows.md) 
+1. [Instructions here](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Switching_BitCurator_Windows.md){:target="_blank"} 
 2. Eject the hard drive before doing this step, and turn off the hard drive dock OR disconnect the USB cable 
 3. Shut down the computer fully when switching between the two
 
@@ -158,8 +158,8 @@ a. To locate the file paths, in the *original* hard drive, select the *digitalAr
 
 ## Bulk Reviewer/BulkExtractor
 *This step should take place in the BitCurator/Ubuntu environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
-1. [Official Bulk Reviewer documentation](https://bulk-reviewer.readthedocs.io/en/latest/)
-2. [Bulk Reviewer GitHub page](https://github.com/bulk-reviewer/bulk-reviewer)
+1. [Official Bulk Reviewer documentation](https://bulk-reviewer.readthedocs.io/en/latest/){:target="_blank"} 
+2. [Bulk Reviewer GitHub page](https://github.com/bulk-reviewer/bulk-reviewer){:target="_blank"} 
 
 *Notes:* 
 * Bulk Reviewer is already downloaded on the lab computer. The application is in the Forensics and Reporting folder on the desktop. Bulk Extractor is located in the same folder, and comes pre-installed in BitCurator. 
@@ -216,7 +216,7 @@ a. If there are any files noted by Windows as duplicates, select **See details f
 ## TAR Files
 1. In [collectionName]_workingFiles, create a folder called [MSS]files
 2. Create TAR files for the Original Disk Images and the Working Files folders </br>
-•	Create TAR file containing both of these folders/files following [these instructions](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Imaging/TAR_Files.md)
+•	Create TAR file containing both of these folders/files following [these instructions](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Imaging/TAR_Files.md){:target="_blank"} 
 3. Put this TAR file in the [MSS]files folder, along with a copy of the MD5 file created above
 
 [Back to top](#table-of-contents)
@@ -261,7 +261,7 @@ a. If there are any files noted by Windows as duplicates, select **See details f
 
 ## Uploading to Keep
 *This step should take place in the Windows environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
-*Staff: Follow [these instructions](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Keep_Ingest.md) to upload the bagged file into the Keep. Below is the corresponding metadata to enter into the form in the Keep. *</br>
+*Staff: Follow [these instructions](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Keep_Ingest.md){:target="_blank"} to upload the bagged file into the Keep. Below is the corresponding metadata to enter into the form in the Keep. *</br>
 1. **Abstract:** *TAR file of files brought to Tier 3 processing, MD5 file, and original disk image*
 2. **Imaging Date:** put the date the bag was created
 3. **Hardware:** put the summation of the media, without count
