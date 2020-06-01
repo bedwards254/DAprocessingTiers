@@ -1,5 +1,5 @@
 # Tier 3 - Full Processing with Restrictions
-Tier 3 processing is done by digital archives staff **only**, as these collections are normally very large, or have unqiue 
+Tier 3 processing is done by digital archives staff **only**, as these collections are normally very large, or have unique 
 restrictions that require more attention. While it follows most of the same steps as [Tier 2b](https://github.com/bedwards254/DAprocessingTiers/tree/master/Tier%202b), there are some key differences: restrictions and arrangment. 
 
 Restrictions set by the donor and outlined in the Deed for physical material should be carried over to born digital materials, unless explicitly stated otherwise. There may also be cases where there are additional restrictions on born digital material, separate from physical material. For more information about arrangement, see [part 10, Arranging Files](#arranging-files). 
@@ -88,7 +88,7 @@ Copy the files in Extracted Files to Working Files
 ---
 
 ## Switching to BitCurator/Ubuntu from Windows
-1. [Instructions here](https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/BC-Windows-Switch.html) 
+1. [Instructions here](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Switching_BitCurator_Windows.md) 
 2. Eject the hard drive before doing this step, and turn off the hard drive dock OR disconnect the USB cable 
 3. Shut down the computer fully when switching between the two
 
@@ -186,7 +186,7 @@ a. You can also choose each indivudal folder inside WorkingFiles, if that's what
 7. Keep an eye on the terminal window as the script runs, to make sure it doesn't get stuck on anything. If it does, consult the Digital Archivist. 
 
 ### In Windows
-*[Switch back to Windows](https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/BC-Windows-Switch.html) to normalize the files using Adobe PDF/Paint/GIMP/Excel/Word*</br>
+*[Switch back to Windows](#switching-to-bitcuratorubuntu-from-windows) to normalize the files using Adobe PDF/Paint/GIMP/Excel/Word*</br>
 1. For Word and Excel files, select multiple (around 10) files at once, right click and select “Convert to Adobe PDF”</br>
 a. To select multiple files at once, select the first one, then hold down the "Shift" key and click the last one you want to select in the group. All the files selected should appear blue. </br>
 2. Navigate to the correct folder the PDF should save in, and hit “Save” in the first dialogue box; do the same for the second dialogue box. 
@@ -216,7 +216,7 @@ a. If there are any files noted by Windows as duplicates, select **See details f
 ## TAR Files
 1. In [collectionName]_workingFiles, create a folder called [MSS]files
 2. Create TAR files for the Original Disk Images and the Working Files folders </br>
-•	Create TAR file containing both of these folders/files following [these instructions](https://bedwards254.github.io/testBDBC/jekyll/2019/01/29/TAR-files.html)
+•	Create TAR file containing both of these folders/files following [these instructions](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Imaging/TAR_Files.md)
 3. Put this TAR file in the [MSS]files folder, along with a copy of the MD5 file created above
 
 [Back to top](#table-of-contents)
@@ -261,7 +261,7 @@ a. If there are any files noted by Windows as duplicates, select **See details f
 
 ## Uploading to Keep
 *This step should take place in the Windows environment. Please see [Switching from BitCurator to Windows](#switching-to-bitcuratorubuntu-from-windows) for instructions to switch.*</br>
-*Staff: Follow [these instructions](https://bedwards254.github.io/testBDBC/jekyll/2019/01/22/Keep-Ingest.html) to upload the bagged file into the Keep. Below is the corresponding metadata to enter into the form in the Keep. *</br>
+*Staff: Follow [these instructions](https://github.com/bedwards254/DAprocessingTiers/blob/master/Tier%201/Keep_Ingest.md) to upload the bagged file into the Keep. Below is the corresponding metadata to enter into the form in the Keep. *</br>
 1. **Abstract:** *TAR file of files brought to Tier 3 processing, MD5 file, and original disk image*
 2. **Imaging Date:** put the date the bag was created
 3. **Hardware:** put the summation of the media, without count
