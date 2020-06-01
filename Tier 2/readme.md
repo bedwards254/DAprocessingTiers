@@ -1,6 +1,8 @@
 # Tier 2 - File Extraction and Light Processing
 Tier 2 processing is done by staff, students, and interns as deemed appropriate. Tier 2 is the initial extraction of materials, along with a virus and deduplication scan. If only system files or degraded files are left after these steps, follow the [Finding Aid Edits section](#finding-aid-edits) below and mark the collection as Tier 2 in the shelf list. Steps one through seven must be completed, if files are initially extracted, to determine if the collection is Tier 2 or [Tier 2b](https://github.com/bedwards254/DAprocessingTiers/tree/master/Tier%202b). 
 
+**Note:** To open links in a new tab, right-click (Cmd+click on Mac) on the link.
+
 # Table of Contents
 1. [Folder Structure Setup](#folder-structure-setup)
 2. [Extraction](#extraction)</br>
