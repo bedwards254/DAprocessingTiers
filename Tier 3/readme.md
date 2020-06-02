@@ -166,8 +166,10 @@ a. To locate the file paths, in the *original* hard drive, select the *digitalAr
 *Notes:* 
 * Bulk Reviewer is already downloaded on the lab computer. The application is in the Forensics and Reporting folder on the desktop. Bulk Extractor is located in the same folder, and comes pre-installed in BitCurator. 
 * Following the official documentation is the easiest way to use Bullk Reviewer. 
-* If using a regular expressions text file to search for specific terms or topics that are restricted, make sure it is placed on the Desktop and then copied to the hard drive once the scan is complete. [link to example?]
-* For the regular expressions file, use only one word per line. Phrases or names like "Billy Bob Joe" will need to be on a single line each. There will also need to be a capital version and a lower-case version (ex. "Bob" and "bob"). There is no need for quotation marks within the text file itself. 
+* If using a regular expressions text file to search for specific terms or topics that are restricted, make sure it is placed on the Desktop and then copied to the hard drive once the scan is complete. 
+* For the regular expressions file, use only one word per line. Phrases or names like "Billy Bob Joe" will need to be on a single line each. There will also need to be a capital version and a lower-case version (ex. "Bob" and "bob"). There is no need for quotation marks within the text file itself. </br>
+*Example:* </br> ```Billy```</br> ```billy``` </br> ```Bob``` </br> ```bob``` </br> ```Joe``` </br> ```joe``` </br>
+*Note:* This will often bring up other content, but Bulk Reviewer has a preview function which shows in-context placement, so you can quickly identify if it needs to be restricted or not. </br>
 * Save any reports to a folder on the Desktop (ex. BurkeBR), since it doesn't like to save to the hard drive due to the naming convention of the hard drive. 
 * Sometimes there will be an error code, but it will still show the results. Sometimes it's really an error code, so keep an eye on it. 
 
