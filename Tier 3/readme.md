@@ -16,7 +16,7 @@ Restrictions set by the donor and outlined in the Deed for physical material sho
 5. [XML Files](#xml-files)
 6. [MD5 File Creation](#md5-file-creation)
 7. [Deduplication](#deduplication)</br>
-•	[FSLint](#fslint)</br>
+•	[FSLint - DEPRECATED](#fslint)</br>
 8. [Bulk Reviewer/BulkExtractor](#bulk-reviewerbulkextractor)
 8. [Normalizing Files](#normalizing-files)
 9. [Arranging Files](#arranging-files)
