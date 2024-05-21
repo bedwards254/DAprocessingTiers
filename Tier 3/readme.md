@@ -140,7 +140,7 @@ a. To locate the file paths, in the *original* hard drive, select the *digitalAr
 1. On the desktop, click the Forensics and Reporting folder
 2. Double click FSLint to launch it
 
-### FSLint
+### FSLint - DEPRECATED
 3. Once open, click the “+Add” button at the top left and navigate to the hard drive and Working Files folder. 
 4. Double click the first folder in Working Files
 5. Remove the “/” from the top box using the “X Remove” button under the “+Add” button
